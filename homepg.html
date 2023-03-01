@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e3a1b541a3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo/logoname.png" class="logo">
+            <ul id="sidemenu">
+                <li><a class="highlight" href="#header">Home</a></li>
+                <li><a class="highlight" href="#about">About</a></li>
+                <li><a class="highlight" href="#portfolio">Portfolio</a></li>
+                <li><a class="highlight" href="#contact">Resume</a></li>
+                <li><a class="highlight" href="#certificates">Certificates</a></li>
+                <li><a class="highlight" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Developer</p>
+            <h1><span>Carly</span> Cormier<br> educator turned
+                developer</h1>
+        </div>
+    </div>
+</div>
+
+<!----About---->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="photo/Carly.png">
+            </div>
+            <div class="about-col-2">
+                <div class="about-info">
+                    <h1 class="sub-title">About Me</h1>
+
+                    <p>Full Stack Developer student looking to join the workforce to gain real-world experience and aim
+                        to
+                        grow programming knowledge in Javascript. Ability to complete tasks on time in both individual
+                        and
+                        team settings. Dependable and reliable, ready to learn and grow with your company.</p>
+                </div>
+                <div class="tab-titles">
+                    <p class="tab-links highlight active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links highlight" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links highlight" onclick="opentab('education')">Education</p>
+                    <p class="tab-links highlight" onclick="opentab('goals')">Goals</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>JavaScript & Node.js</span><br>Creating algorithms & learning syntax</li>
+                        <li><span>HTML 5 & CSS3</span><br>Design, build & maintain websites</li>
+                        <li><span>Linux & Bash/Shell</span><br>Use command-line & debug web applications</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022-Current</span><br>Full Stack Application Development Student at Nova Scotia
+                            Community
+                            College
+                        </li>
+                        <li><span>2021-2022</span><br>Substitute Teacher at Halifax Regional Centre for Education</li>
+                        <li><span>2019-2020</span><br>Middle School Teacher at International School of Cambridge</li>
+                        <li><span>2015-2018</span><br>Head of Department English Elementary Teacher at Singapore
+                            International School
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022</span><br>Graduate Certificate in Full Stack Development at Nova Scotia Community
+                            College
+                        </li>
+                        <li><span>2013-2014</span><br>Bachelor of Education from University of Toronto</li>
+                        <li><span>2006-2009</span><br>Bachelor of Arts Honors in Fine Arts</li>
+                        <li><span>2000-2003</span><br>Diploma in Early Childhood Education</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="goals">
+                    <ul>
+                        <li><span>Short Term</span><br>Practice coding, make new projects out of school,<br> networking events, practicing interviews,<br> research companies for internships</li>
+                        <li><span>Long Term</span><br>Networking events, internship,<br>practice interviews, attain full time developer position,<br> Supervisor or Manager position</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----Portfolio-------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img class="portfolio-img" src="photo/work-1.jpg">
+                <div class="layer">
+                    <h3>HTML Website</h3>
+                    <p>A restaurant website<br> that brings people together<br> for the love of nachos.</p>
+                    <a href="projects/restaurant/nachonova.html" target="_blank"><i
+                            class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img class="portfolio-img" src="photo/work-2.jpg">
+                <div class="layer">
+                    <h3>CSS Grids</h3>
+                    <p>An e-commerce webpage<br> that may convince you<br> to buy the best kids product ever.</p>
+                    <a href="projects/ecommerce/stroller.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img class="portfolio-img" src="photo/work-3.jpg">
+                <div class="layer">
+                    <h3>Resume</h3>
+                    <p>One page resume<br> that hightlights new<br> and emerging skill set.</p>
+                    <a href="projects/resume/resume.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------Certificates--------------->
+<div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">My Certificates</h1>
+        <div class="row">
+            <div class="owl-carousel owl-theme owl-loaded">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage">
+                        <div class="owl-item">
+                            <img src="photo/csscert.png">
+                        </div>
+                        <div class="owl-item">
+                            <img src="photo/htmlcert.png">
+                        </div>
+                        <div class="owl-item">
+                            <img src="photo/jscert.png">
+                        </div>
+                        <div class="owl-item">
+                            <img src="photo/page1_1.png">
+                        </div>
+                        <div class="owl-item">
+                            <img src="photo/page2_1.png">
+                        </div>
+                        <div class="owl-item">
+                            <img src="photo/page3_1.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------Contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><a href="mailto:carly.e.cormier@gmail.com"><i class="fa-solid fa-at"></i></a>carly.e.cormier@gmail.com
+                </p>
+                <p><a href="tel:902-410-7681"><i class="fa-solid fa-mobile-screen"></i></a>902-410-7681</p>
+                <p>
+                    <a href="https://www.google.com/maps/place/Halifax,+NS/@44.6463477,-63.7729804,11z/data=!3m1!4b1!4m5!3m4!1s0x4b5a211407dbfac1:0x666be3a6438b2ddc!8m2!3d44.6475811!4d-63.5727683?shorturl=1" target="_blank"><i
+                            class="fa-solid fa-location-dot"></i></a>Halifax, NS</p>
+                <div class="social-icons">
+                    <p><a href="https://www.linkedin.com/in/carly-cormier-6002aa1ab/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>LinkedIn</p>
+
+                </div>
+                <a href="photo/resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Carly Cormier</p>
+    </div>
+</div>
+
+<script src="carousel/jquery.min.js"></script>
+<script src="carousel/owl.carousel.min.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
