@@ -1,2 +1,2 @@
-# CECormier.github.io/index.html
+# CECormier.github.io/homepg.html
 Portfolio Website
